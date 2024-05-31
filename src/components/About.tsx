@@ -23,11 +23,7 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+At Prizz Task Management, we're dedicated to redefining how teams tackle their projects. Our vision is to equip organizations with intuitive, efficient, and customizable tools that streamline task workflows and drive unparalleled success. With a steadfast commitment to innovation and excellence, we continuously push boundaries to exceed expectations, offering cutting-edge solutions tailored to meet the unique needs of every user. Join us on our journey to transform task management into a seamless, collaborative, and rewarding experience for all.
               </p>
             </div>
 

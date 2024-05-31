@@ -8,29 +8,26 @@ interface SponsorProps {
 const sponsors: SponsorProps[] = [
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 1",
+    name: "Apex Tech Solutions",
   },
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 2",
+    name: "Zenithki Innovations ",
   },
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 3",
+    name: "Matrix Sh  Dynamics",
   },
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 4",
+    name: "Nexus Ventures Ltd.",
   },
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 5",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
+    name: "Orbit Strategies Co.",
   },
 ];
+
 
 export const Sponsors = () => {
   return (

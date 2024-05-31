@@ -10,29 +10,30 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "User-Friendly Interface",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Navigate Prizz's intuitive interface effortlessly, making task management a breeze for all users.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Seamless Collaboration",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Enable real-time collaboration among team members, allowing them to share updates, files, and feedback seamlessly.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Scalable Solution",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Grow your projects with ease, as Prizz is designed to scale alongside your team's evolving needs and projects of any size.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Engaging Gamification",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Motivate your team members with gamification elements, turning task completion into a fun and rewarding experience.",
   },
 ];
+
 
 export const HowItWorks = () => {
   return (

@@ -10,94 +10,78 @@ import {
 interface TestimonialProps {
   image: string;
   name: string;
-  userName: string;
   comment: string;
 }
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    image: "https://example.com/avatar1.png",
+    name: "John Doe",
+    comment: "Prizz helped us streamline our project management process and boosted our team's productivity. Highly recommended!",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    image: "https://example.com/avatar2.png",
+    name: "Jane Smith",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "We've been using Prizz for a few months now, and it has truly transformed the way we collaborate on tasks. It's intuitive, efficient, and has become an essential tool for our team.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    image: "https://example.com/avatar3.png",
+    name: "David Johnson",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Prizz's customizable workflows have allowed us to tailor the platform to fit our team's unique needs perfectly. It's flexible, adaptable, and has made a significant difference in our project management approach.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    image: "https://example.com/avatar4.png",
+    name: "Emily Wilson",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "The real-time collaboration features in Prizz have made it easy for our team to stay connected and work together effectively, regardless of our location. It's a game-changer!",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    image: "https://example.com/avatar5.png",
+    name: "Michael Brown",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Prizz's user-friendly interface and advanced reporting tools have provided us with valuable insights into our project progress and performance. It's helped us make data-driven decisions and drive continuous improvement.",
+  },
+  {
+    image: "https://example.com/avatar6.png",
+    name: "Sarah Lee",
+    comment:
+      "We love Prizz's dark/light theme option, which allows us to customize the platform to match our preferences. It's a small feature but makes a big difference in our user experience.",
   },
 ];
 
 export const Testimonials = () => {
   return (
-    <section
-      id="testimonials"
-      className="container py-24 sm:py-32"
-    >
+    <section id="testimonials" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold">
         Discover Why
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
           People Love{" "}
         </span>
-        This Landing Page
+        Prizz Task Management
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+        Hear what our customers have to say about their experience with Prizz.
       </p>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2 lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
         {testimonials.map(
-          ({ image, name, userName, comment }: TestimonialProps) => (
+          ({ image, name, comment }: TestimonialProps, index: number) => (
             <Card
-              key={userName}
+              key={index}
               className="max-w-md md:break-inside-avoid overflow-hidden"
             >
               <CardHeader className="flex flex-row items-center gap-4 pb-2">
                 <Avatar>
-                  <AvatarImage
-                    alt=""
-                    src={image}
-                  />
-                  <AvatarFallback>OM</AvatarFallback>
+                  <AvatarImage alt="" src={image} />
+                  <AvatarFallback>{name[0]}</AvatarFallback>
                 </Avatar>
 
                 <div className="flex flex-col">
                   <CardTitle className="text-lg">{name}</CardTitle>
-                  <CardDescription>{userName}</CardDescription>
                 </div>
               </CardHeader>
 

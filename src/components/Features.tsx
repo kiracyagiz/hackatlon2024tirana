@@ -18,36 +18,34 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Intuitive Task Organization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      " Easily organize your tasks with Prizz's intuitive interface, allowing you to categorize, prioritize, and assign tasks effortlessly. Stay on top of your workload and streamline your workflow with simple drag-and-drop functionality.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Real-Time Collaboration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Foster seamless collaboration among team members with Prizz's real-time communication tools. Share updates, files, and feedback instantly, ensuring everyone stays informed and aligned. Break down communication barriers and boost productivity with collaborative features designed to enhance teamwork.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Customizable Task Workflows",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Prizz  fit your team's unique workflow with customizable task management features. Adapt task lists, statuses, and workflows to match your team's preferred processes and methodologies. Increase efficiency and collaboration by aligning Prizz with your team's specific needs, ensuring a seamless integration into your existing workflow.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Task Management",
+  "Real-time Collaboration",
+  "Customizable Workflows",
+  "Integration Options",
+  "User-friendly Interface",
+  "Advanced Reporting",
 ];
+
 
 export const Features = () => {
   return (
