@@ -1,7 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -117,7 +116,7 @@ export const Team = () => {
       <div className="flex flex-col lg:flex-row justify-between gap-8 gap-y-10">
         {teamList.map((team, index) => (
           <Card
-            key={team.name}
+            key={index}
             className={`bg-muted/50 relative mt-8 flex flex-col justify-center items-center`}
           >
             <CardHeader className="mt-8 flex justify-center items-center pb-2">
