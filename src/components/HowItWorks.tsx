@@ -12,7 +12,7 @@ const features: FeatureProps[] = [
     icon: <MedalIcon />,
     title: "User-Friendly Interface",
     description:
-      "Navigate Prizz's intuitive interface effortlessly, making task management a breeze for all users.",
+      "Navigate Manajinx's intuitive interface effortlessly, making task management a breeze for all users.",
   },
   {
     icon: <MapIcon />,
@@ -24,7 +24,7 @@ const features: FeatureProps[] = [
     icon: <PlaneIcon />,
     title: "Scalable Solution",
     description:
-      "Grow your projects with ease, as Prizz is designed to scale alongside your team's evolving needs and projects of any size.",
+      "Grow your projects with ease, as Manajinx is designed to scale alongside your team's evolving needs and projects of any size.",
   },
   {
     icon: <GiftIcon />,
@@ -49,7 +49,7 @@ export const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-    Discover the power of Prizz in just a few easy steps. Our platform seamlessly integrates with your workflow.
+    Discover the power of Manajinx in just a few easy steps. Our platform seamlessly integrates with your workflow.
 </p>
  
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

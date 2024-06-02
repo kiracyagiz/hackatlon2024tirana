@@ -23,7 +23,7 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-At Prizz Task Management, we're dedicated to redefining how teams tackle their projects. Our vision is to equip organizations with intuitive, efficient, and customizable tools that streamline task workflows and drive unparalleled success. With a steadfast commitment to innovation and excellence, we continuously push boundaries to exceed expectations, offering cutting-edge solutions tailored to meet the unique needs of every user. Join us on our journey to transform task management into a seamless, collaborative, and rewarding experience for all.
+At Manajinx Task Management, we're dedicated to redefining how teams tackle their projects. Our vision is to equip organizations with intuitive, efficient, and customizable tools that streamline task workflows and drive unparalleled success. With a steadfast commitment to innovation and excellence, we continuously push boundaries to exceed expectations, offering cutting-edge solutions tailored to meet the unique needs of every user. Join us on our journey to transform task management into a seamless, collaborative, and rewarding experience for all.
               </p>
             </div>
 

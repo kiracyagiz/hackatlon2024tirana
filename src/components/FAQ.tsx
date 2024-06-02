@@ -13,33 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is Prizz Task Management free to use?",
-    answer: "Yes, Prizz offers a free version with limited features. You can upgrade to unlock additional functionalities.",
+    question: "Is Manajinx Task Management free to use?",
+    answer: "Yes, Manajinx offers a free version with limited features. You can upgrade to unlock additional functionalities.",
     value: "item-1",
   },
   {
-    question: "Can I collaborate with my team using Prizz?",
+    question: "Can I collaborate with my team using Manajinx?",
     answer:
-      "Absolutely! Prizz is designed for seamless team collaboration. You can share tasks, files, and updates with your team members in real-time.",
+      "Absolutely! Manajinx is designed for seamless team collaboration. You can share tasks, files, and updates with your team members in real-time.",
     value: "item-2",
   },
   {
     question:
-      "How can I customize workflows in Prizz?",
+      "How can I customize workflows in Manajinx?",
     answer:
-      "Prizz provides customizable workflows that allow you to tailor task lists, statuses, and processes to match your team's specific needs and preferences.",
+      "Manajinx provides customizable workflows that allow you to tailor task lists, statuses, and processes to match your team's specific needs and preferences.",
     value: "item-3",
   },
   {
-    question: "Is Prizz accessible on mobile devices?",
-    answer: "Yes, Prizz is fully responsive and accessible on all devices, including smartphones and tablets.",
+    question: "Is Manajinx accessible on mobile devices?",
+    answer: "Yes, Manajinx is fully responsive and accessible on all devices, including smartphones and tablets.",
     value: "item-4",
   },
   {
     question:
-      "How secure is my data on Prizz?",
+      "How secure is my data on Manajinx?",
     answer:
-      "Prizz prioritizes data security and employs robust measures to ensure the safety and confidentiality of your information. Your data is encrypted and protected at all times.",
+      "Manajinx prioritizes data security and employs robust measures to ensure the safety and confidentiality of your information. Your data is encrypted and protected at all times.",
     value: "item-5",
   },
 ];

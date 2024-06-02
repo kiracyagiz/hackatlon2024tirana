@@ -20,19 +20,19 @@ const features: FeatureProps[] = [
   {
     title: "Intuitive Task Organization",
     description:
-      " Easily organize your tasks with Prizz's intuitive interface, allowing you to categorize, prioritize, and assign tasks effortlessly. Stay on top of your workload and streamline your workflow with simple drag-and-drop functionality.",
+      " Easily organize your tasks with Manajinx's intuitive interface, allowing you to categorize, prioritize, and assign tasks effortlessly. Stay on top of your workload and streamline your workflow with simple drag-and-drop functionality.",
     image: image4,
   },
   {
     title: "Real-Time Collaboration",
     description:
-      "Foster seamless collaboration among team members with Prizz's real-time communication tools. Share updates, files, and feedback instantly, ensuring everyone stays informed and aligned. Break down communication barriers and boost productivity with collaborative features designed to enhance teamwork.",
+      "Foster seamless collaboration among team members with Manajinx's real-time communication tools. Share updates, files, and feedback instantly, ensuring everyone stays informed and aligned. Break down communication barriers and boost productivity with collaborative features designed to enhance teamwork.",
     image: image3,
   },
   {
     title: "Customizable Task Workflows",
     description:
-      "Prizz  fit your team's unique workflow with customizable task management features. Adapt task lists, statuses, and workflows to match your team's preferred processes and methodologies. Increase efficiency and collaboration by aligning Prizz with your team's specific needs, ensuring a seamless integration into your existing workflow.",
+      "Manajinx  fit your team's unique workflow with customizable task management features. Adapt task lists, statuses, and workflows to match your team's preferred processes and methodologies. Increase efficiency and collaboration by aligning Manajinx with your team's specific needs, ensuring a seamless integration into your existing workflow.",
     image: image,
   },
 ];

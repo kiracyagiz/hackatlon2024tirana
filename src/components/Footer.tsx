@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-           Prizz
+           Manajinx
           </a>
         </div>
 
@@ -30,7 +30,7 @@ export const Footer = () => {
           <a
             className="text-primary transition-all border-primary"
           >
-            Prizz
+            Manajinx
           </a>
         </h3>
       </section>

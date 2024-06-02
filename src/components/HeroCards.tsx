@@ -30,7 +30,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>Prizz has truly streamlined our project coordination.</CardContent>
+        <CardContent>Manajinx has truly streamlined our project coordination.</CardContent>
       </Card>
 
       {/* Team */}
@@ -49,7 +49,7 @@ export const HeroCards = () => {
 
         <CardContent className=" pb-2">
           <p>
-          Prizz, our go-to platform! Customizable, integrated. A game-changer!
+          Manajinx, our go-to platform! Customizable, integrated. A game-changer!
           </p>
         </CardContent>
 
@@ -120,7 +120,7 @@ export const HeroCards = () => {
 
         <CardContent className=" pb-2">
           <p>
-          Prizz will elevate your experience"
+          Manajinx will elevate your experience"
 
 
 
